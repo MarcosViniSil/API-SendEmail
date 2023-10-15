@@ -40,7 +40,7 @@ class UserService(private val userRepository:UserRepository,private val sendEmai
         msg.setTo(user.email);
         msg.setText(
             "Prezado " + user.password
-                    + "Enviando email a partir do java Spring boot "
+                    + " Enviando email a partir do java Spring boot "
         )
 
         try {
